@@ -1,0 +1,34 @@
+ <h1>{Questions[currQuestion].promt}</h1>
+          <div className="options">
+            <button onClick={() => {
+            chooseOption("option1")
+          
+          }}>
+            {Questions[currQuestion].option1}
+            </button>
+            <button onClick={() => {
+            chooseOption("option2");
+          }}>
+            {Questions[currQuestion].option2}
+            </button>
+            <button onClick={() => {
+            chooseOption("option3");
+          }}>
+            {Questions[currQuestion].option3}
+            </button>
+            <button onClick={() => {
+            chooseOption("option4");
+          }}>
+            {Questions[currQuestion].option4}
+            </button>
+              
+          </div> 
+          { currQuestion === Questions.length-1 ?(
+              <button onClick={finishQuiz}>
+                  Finish Quiz
+              </button>
+
+            ):          <button onClick={nextQuestion}>
+              Next Question
+          </button>
+          }
