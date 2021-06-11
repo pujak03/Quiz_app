@@ -3,14 +3,7 @@ import { GameStateContext } from "../Helper/Contexts";
 import { Questions } from "../Helper/QuestionSet";
 
 function Quiz() {
-  const [inputField,setInputField]=useState({promt:"1.what is 15%2?",
-  option1:'',
-  option2:'',
-  option3:'',
-  option4:'',
-  answer:'',
-
-  })
+  
     const [currQuestion, setCurrQuestion] = useState(0);
   const [optionChosen, setOptionChosen] = useState("");
 
