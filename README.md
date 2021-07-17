@@ -4,7 +4,7 @@ Quiz App
 
 ## Description
 
-I have made a quiz app.we can select single answer for every question and in last our total score will be displayed on the screen. we can also  restart the quiz in the end
+I have made a quiz appIn which we can select single answer for every question and in last our total score will be displayed on the screen. we can also  restart the quiz in the end
 
 ## Technology Used
 
